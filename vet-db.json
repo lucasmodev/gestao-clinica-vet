@@ -1,0 +1,149 @@
+{
+  "system": {
+    "name": "VetCare Clínica Veterinária",
+    "version": "1.0.0",
+    "currency": "BRL"
+  },
+  "appointments": [
+    {
+      "id": "app-001",
+      "pet": "Luna",
+      "owner": "Mariana Alves",
+      "type": "Consulta",
+      "status": "Aguardando",
+      "time": "09:00",
+      "notes": "Coceira intensa e queda de pelos"
+    },
+    {
+      "id": "app-002",
+      "pet": "Thor",
+      "owner": "Carlos Mendes",
+      "type": "Emergência",
+      "status": "Em atendimento",
+      "time": "10:15",
+      "notes": "Suspeita de intoxicação"
+    },
+    {
+      "id": "app-003",
+      "pet": "Mel",
+      "owner": "Patrícia Costa",
+      "type": "Retorno",
+      "status": "Finalizado",
+      "time": "11:30",
+      "notes": "Revisão pós-cirúrgica"
+    }
+  ],
+  "inpatients": [
+    {
+      "id": "int-001",
+      "pet": "Thor",
+      "owner": "Carlos Mendes",
+      "bed": "03",
+      "vet": "Dra. Paula Lima",
+      "status": "Internado",
+      "nextMedication": "2026-04-26",
+      "diagnosis": "Intoxicação alimentar",
+      "notes": "Monitoramento a cada 6 horas"
+    },
+    {
+      "id": "int-002",
+      "pet": "Nina",
+      "owner": "Fernanda Rocha",
+      "bed": "07",
+      "vet": "Dr. Fábio Nunes",
+      "status": "Internado",
+      "nextMedication": "2026-04-25",
+      "diagnosis": "Pós-operatório de ovariohisterectomia",
+      "notes": "Dieta leve e controle de dor"
+    }
+  ],
+  "specialists": [
+    {
+      "id": "esp-001",
+      "name": "Dr. Renan Prado",
+      "area": "Cardiologia",
+      "pet": "Bidu",
+      "date": "2026-04-26",
+      "status": "Agendado",
+      "notes": "Ecocardiograma externo"
+    },
+    {
+      "id": "esp-002",
+      "name": "Dra. Helena Moraes",
+      "area": "Dermatologia",
+      "pet": "Luna",
+      "date": "2026-04-28",
+      "status": "Agendado",
+      "notes": "Avaliação de alergia alimentar"
+    },
+    {
+      "id": "esp-003",
+      "name": "Dr. Bruno Telles",
+      "area": "Ortopedia",
+      "pet": "Max",
+      "date": "2026-04-20",
+      "status": "Concluído",
+      "notes": "Revisão de fratura em tíbia"
+    }
+  ],
+  "medications": [
+    {
+      "id": "med-001",
+      "name": "Antibiótico Vet 50mg",
+      "stock": 12,
+      "expiry": "2026-12-15",
+      "price": 89.9,
+      "notes": "Uso controlado com retenção de receita"
+    },
+    {
+      "id": "med-002",
+      "name": "Anti-inflamatório Pet",
+      "stock": 4,
+      "expiry": "2026-08-10",
+      "price": 54.5,
+      "notes": "Baixo estoque"
+    },
+    {
+      "id": "med-003",
+      "name": "Vermífugo Plus",
+      "stock": 18,
+      "expiry": "2027-02-02",
+      "price": 37.9,
+      "notes": "Venda no balcão"
+    }
+  ],
+  "finance": [
+    {
+      "id": "fin-001",
+      "date": "2026-04-25",
+      "origin": "Atendimento",
+      "description": "Consulta clínica - Luna",
+      "category": "Receita clínica",
+      "amount": 180
+    },
+    {
+      "id": "fin-002",
+      "date": "2026-04-25",
+      "origin": "Internação",
+      "description": "Diária de internação - Thor",
+      "category": "Receita hospitalar",
+      "amount": 320
+    },
+    {
+      "id": "fin-003",
+      "date": "2026-04-24",
+      "origin": "Medicamentos",
+      "description": "Venda de Anti-inflamatório Pet",
+      "category": "Receita farmácia",
+      "amount": 54.5
+    },
+    {
+      "id": "fin-004",
+      "date": "2026-04-23",
+      "origin": "Especialista externo",
+      "description": "Cardiologia - Bidu",
+      "category": "Serviço terceirizado",
+      "amount": 260
+    }
+  ]
+}
